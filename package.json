@@ -1,0 +1,42 @@
+{
+  "name": "easy-grid",
+  "version": "0.0.1",
+  "description": "A React component for utilizing CSS grid layout.",
+  "scripts": {
+    "build": "npm run clean; babel src/ -d build/ -s",
+    "clean": "rm -rf build/",
+    "test": "jest",
+    "examples": "npm run build; cd examples; npm install; npm run build; npm run open"
+  },
+  "main": "build/grid.js",
+  "keywords": [
+    "css",
+    "grid-layout",
+    "grid",
+    "layout",
+    "react"
+  ],
+  "author": "Joshua Harrison",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-jest": "^21.2.0",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "enzyme": "^3.1.0",
+    "enzyme-adapter-react-16": "^1.0.2",
+    "jest": "^21.2.1",
+    "jest-styled-components": "^4.9.0",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0",
+    "regenerator-runtime": "^0.11.0",
+    "styled-components": "^2.2.2"
+  },
+  "jest": {
+    "testPathIgnorePatterns": [
+      "/node_modules",
+      "/build"
+    ]
+  }
+}
