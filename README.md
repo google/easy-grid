@@ -96,9 +96,9 @@ The exported `grid` method is used to create layout components based on an ASCII
 
 ~~~javascript
 const TwoByTwoLayout = grid`
-	1fr		1fr
-1fr A		A,B
-1fr A		A,B
+    1fr   1fr
+1fr A     A,B
+1fr A     A,B
 `
 ~~~
 defines a React component, TwoByTwoLayout, that will distribute it's child elements along a two by two grid. element "A" will take up the entire grid, while element "B" will overlap element "A" and take up the right half of the grid. The two rows will each have the same height, namely half the height of the parent element. Likewise, the two columns will each have the same width, or half the width of the parent component.
@@ -142,9 +142,9 @@ Using a combination of column headers and row headers, a grid is defined. The ce
 
 ```javascript
 const SomeGrid = grid`
-		1fr		2fr		3fr
-1fr 	A		A,B		A,B
-2fr		A		A,B		A,B
+      1fr    2fr    3fr
+1fr   A      A,B    A,B
+2fr   A      A,B    A,B
 `
 ```
 Grid area defintions use commas to separate multiple overlapping grid areas identifiers in a given grid cell.
@@ -157,10 +157,10 @@ Empty grid cells can be denoted by `..`. For instance,
 
 ```javascript
 const SpacerGrid = grid`
-		10px	50%		10px
-10px	..		..		..
-50%		..		A		..
-10px	..		..		..
+       10px   50%   10px
+10px   ..     ..    ..
+50%    ..     A     ..
+10px   ..     ..    ..
 `
 ```
 defines a `SpacerGrid` component that has a single grid area with a 10px border around it.
@@ -174,9 +174,9 @@ As mentioned above, the result of calling the `grid` factory method with a grid 
 
 ```javascript
 const Simple = grid`
-		1fr		1fr
-1fr		A		A
-1fr		B		B
+      1fr    1fr
+1fr   A      A
+1fr   B      B
 `
 
 /** Error: not enough children */
