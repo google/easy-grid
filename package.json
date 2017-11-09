@@ -1,6 +1,6 @@
 {
   "name": "easy-grid",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A React component for utilizing CSS grid layout.",
   "scripts": {
     "build": "npm run clean; babel src/ -d build/ -s",
@@ -16,6 +16,10 @@
     "layout",
     "react"
   ],
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/google/easy-grid.git"
+  },
   "author": "Joshua Harrison",
   "license": "Apache-2.0",
   "devDependencies": {

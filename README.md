@@ -14,75 +14,61 @@ easy-grid is a React component factory that provides a declarative layout mechan
 	</thead>
 	<tr>
 		<td>
-			<img src="https://lh3.googleusercontent.com/NPhI1FYE7JLWESagtFHPKfVm6q4_Wu8iibh5ZGgrUtd0NOCTJVxIPKqCOrePTFhl-G3Moq8fbM35osrGPDFyqtrjJ9CZ44cmZU1FOKunPfPXL__4RB524xHsmQfk077vvGUvFw9-wK86PjWLzdD2svVQKJCr2JJGAkiErM1Kjo9KPplpL2NwNJzwZcgzAdFKSFYaJYMIS5rZYrtzjbM6QunXMNxCYqIpiWoUc_2zzTHnO81OlBgDRyysBhOiAQOmOHIDkHOsRbufpz98EYPBHXMMHxYef8KX57jR2UkV91mwFJf6dhGspHZn47bFR1QKnXTPDJLc0XzueoNDQkg9tf6-CEdrHgH9SOvIPR-jXLKVBLNi237i7oZp3tWmG3UU4Vh6e8zkmHs7URqrgCj4eeOr2qUUx-fujpyUVBicuZigrGEAo3oKy_bX-swAhhk8s6sxeGvegVPOlljjueZIElHtVCLpvmtlAMbC6Dxf4Il8yceZI09PIjuV1H8tuMZcyT9xz6NVffU2Nj4daLwQ7vW12knANv0VLGEu4Ahx4xAHZJ-CPHiK1Ntg11L88W3ErsIq1LHjvAIoudSrnck8l63iaUNoffS4lgkAGB61xQ=w578-h870-no" width="280" height="400">
+			<img width="289" alt="code-one" src="https://user-images.githubusercontent.com/208079/32584263-4ad479b2-c4ac-11e7-9308-03a4f26cdca9.png">
 		</td>
 		<td>
-			<img src="https://lh3.googleusercontent.com/3Qkm2UST1c_i6lwXthBx-4xv6RcW2SBJcLM20eUA505BAornaUwijQbgUU6jDcLFspUXVzYWYpCT3X3Ewa9eKvxS34loytot2QiAqLzg92HMPeGlQyXjc6VO0iwGWG2Az5o3tltlTDW3uXwcqzKvqLwmMmnskiz09VGZHfAp0zRSLuUn0RoUkxm0LGWg4Y7o7izG7S8n-O_ULB83kJZH1nrD7waogOJIGteo79Dpqyi034XLFiwb2DPiQi9sRthPMQXelVdJ8ZpyYq4M1GUoqmadTEYkK6OD_rO3kzuOnrOt9ACLi8VN2x1RM702ZxUG0LV1CFZpm07ISUY6B3ZHFxqHnaV41Jhgpf4SWgiPc219c7LAKgMvgQFa-quqMVkeE5k0oJOANpCBQWoN5sY2CkJqqC084KCiX-ZiWhncICBwsAR-k28d_YMWnBgoMokBLE2wipjRoBvTyK5-yYiiYfJvDA4BiZMEj6bwTMsI8D2N1aHSYk6TyY87DmUfSAsPyJc-441bfmxDiQPJhb6lKFjZdkPZoGtqlvwFsFOLuK40ByH8B70weiMBUOoHLC0hu4QHRPuJwojhxPM1eyXqhKZDHKhHOGRzSyacUPRQqA=w612-h610-no" width="300" height="300">
+			<img width="306" alt="render-one" src="https://user-images.githubusercontent.com/208079/32584270-4ee201b4-c4ac-11e7-94d2-6e9899e4ea99.png">
 		</td>
 	</tr>
 	<tr>
 		<td>
-			<img src="https://lh3.googleusercontent.com/9yJqabfm88GYBNONsdRSjn-3wNeu5Jy5uK0I5Q2ZJ1MnmpJD4bSkaVcUjAAsMjVJ7uuKAQvEbn2FfZn5HRolNcXDVvXiOidEb-XV8LotBTLqL_U8vqaadSZpHLgPlc63FXlpJq1oiuIYy37Jwtf6RDhhCkS7NUiM5Mhe2_kGNVQXvsGnP5Ac90e4ZxH3pfnXOnDkYq0_EskfySV-506EW62qXid-3SBassE03rtArwCvbboicXccPqSObuoGpwap8apEEmg0BOdkMj74y-MRWUqj-QS-7R1cpxLr9OJzSLMl2t6IZ1TQijPfq4AGF2TeQWFPxF6MAL6auiYYambyfsRcJ4LG1P7vrZLTMWLYuFtoc29WQDgglTbai6TnZVT6QADF3cMrjqCvG_WbME-yMJgB3oxfw3mQjEPbxgAt632VuF5w1mJTynHygKte3hTPzuB0Qr3t6WEh4N-kssK3YfepGVXuA71p5ooDzoGISMJOwG0ffil3WPkwM5_lC-0j6ugNm9BvIEBbTGRTAgzn6B6CYbs_qoropLRWDElkIMAR0kT6vwBJaSAPqRf9Kcjg45qEyea0fQha9-juXbNQ53aHhwOwxwwOE31Ux_6ADA=w762-h1302-no" width="350" height="550">
+			<img width="381" alt="code-two" src="https://user-images.githubusercontent.com/208079/32584274-5123d4ac-c4ac-11e7-85c0-66ce58c5ef01.png">
 		</td>
 		<td>
-			<img src="https://lh3.googleusercontent.com/_HMNqu9GdQVJtkpwuDpanUVZPAcLiazh8S-8rZouqtEKmmbzSbfyVZsdVniTyGo6tkH_P9qQTjo-ik7tHR9DxnkwZRYotZyiHBQzaVROabBWRvmK6ggBPbyqWZt9T1mavN_4zVKH5huSBX5hITQvAspiM0zPZYYs-KrWS4QFMCO6wd8tEFzVRzHRFLqZxAtSGUL4vwE4vUv7tt42_MFHo8j5DC7MaTtYgI7U5rbLwAriIjUzqJI8FKPRPJ43H6poLQNCaz6PJYYBhkoj3Nlm6fi2qFeeDbHxcw7eMQjPa-jdVPzGd1xPPKr8IFS0wSKsBKGyBCg1WaxL5S18OO_wZjiSeNdDJdCvaz4mLIKbCUhuePu2ff4K9KAahwiZlnued8wANA3o4lL_-uiKT6NKa7DJpmYX3njGQaonbIOGaneHR81CDuAUh2AFkzjrKjz_YX3PU8GVGL67mGUaxRYNAqkrOgew5MxDI_Ywa_SDyShUB-lMXDQnYTKqRKEYv58nD0unw47cel_EDuj94KGrSBAcXTvu4OfGyESRwBIRfoFy-TaCNOZu3Z4S3XiroexoDawOdI-XuYuTyadjJbqiLFrWmucVkSVkAX1l8Q5-SQ=w614-h230-no" width="300" height="100">
+			<img width="307" alt="render-two" src="https://user-images.githubusercontent.com/208079/32584277-539e76ec-c4ac-11e7-9f1a-067b50a7d71f.png">
 		</td>
 	</tr>
 </table>
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
-
 ### Prerequisites
 
-What things you need to install the software and how to install them
-
-```
-Give examples
-```
+Make sure you have the [npm package manager](https://www.npmjs.com/get-npm) installed on your development machine.
 
 ### Installing
 
-A step by step series of examples that tell you have to get a development env running
-
-Say what the step will be
+Clone the git repository to a local directory:
 
 ```
-npm install --save easy-grid
+git clone git@github.com:google/easy-grid.git
+cd easy-grid
 ```
 
-And repeat
+Run `npm install` and then run the examples:
 
 ```
-until finished
+npm install
+npm run examples
 ```
 
-End with an example of getting some data out of the system or using it for a little demo
+This will start a browser pointing at 'index.html' in the [examples subdirectory](https://github.com/google/easy-grid/blob/master/examples/index.html).
+
+To play around with the library, make changes to the [examples.js](https://github.com/google/easy-grid/blob/master/examples/examples.js) React app and re-run `npm run examples`.
 
 ## Running the tests
 
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
 ```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
+npm test
 ```
 
 ## Deployment
 
-Add additional notes about how to deploy this on a live system
+To use the library in a production environment, simply run:
+
+```
+npm install --save easy-grid
+```
 
 ## Importing
 easy-grid exports a `grid` factory method:
@@ -219,10 +205,6 @@ const StyledSimple = styled(Simple)`
 ## Contributing
 
 Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags).
 
 ## License
 
