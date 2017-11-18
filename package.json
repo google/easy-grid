@@ -1,6 +1,6 @@
 {
   "name": "easy-grid",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A React component for utilizing CSS grid layout.",
   "scripts": {
     "build": "npm run clean; babel src/ -d build/ -s",
@@ -32,10 +32,12 @@
     "enzyme-adapter-react-16": "^1.0.2",
     "jest": "^21.2.1",
     "jest-styled-components": "^4.9.0",
-    "react": "^16.0.0",
-    "react-dom": "^16.0.0",
-    "regenerator-runtime": "^0.11.0",
-    "styled-components": "^2.2.2"
+    "react-dom": "^15",
+    "regenerator-runtime": "^0.11.0"
+  },
+  "dependencies": {
+    "react": "^15",
+    "styled-components": "^2"
   },
   "jest": {
     "testPathIgnorePatterns": [
