@@ -1,6 +1,6 @@
 {
   "name": "easy-grid",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "A React component for utilizing CSS grid layout.",
   "scripts": {
     "build": "npm run clean; babel src/ -d build/ -s",
