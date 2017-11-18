@@ -52,7 +52,7 @@ npm install
 npm run examples
 ```
 
-This will start a browser pointing at 'index.html' in the [examples subdirectory](https://github.com/google/easy-grid/blob/master/examples/index.html).
+This will start a browser pointing at 'index.html' in the [examples subdirectory](https://github.com/google/easy-grid/tree/master/examples).
 
 To play around with the library, make changes to the [examples.js](https://github.com/google/easy-grid/blob/master/examples/examples.js) React app and re-run `npm run examples`.
 
@@ -143,10 +143,10 @@ Empty grid cells can be denoted by `..`. For instance,
 
 ```javascript
 const SpacerGrid = grid`
-       10px   50%   10px
-10px   ..     ..    ..
-50%    ..     A     ..
-10px   ..     ..    ..
+       25%   50%   25%
+25%    ..    ..    ..
+50%    ..    A     ..
+25%    ..    ..    ..
 `
 ```
 defines a `SpacerGrid` component that has a single grid area with a 10px border around it.

@@ -141,6 +141,25 @@ const BadgeButton = () => (
 	</Example>
 )
 
+const SpacerGrid = styled(grid`
+	     25% 50% 25%
+	25%  ..  ..  ..
+	50%  ..  A   ..
+	25%  ..  ..  ..
+`)`
+	height: 300px;
+	width: 300px;
+	border: 1px solid black;
+`
+
+const Spacer = () => (
+	<Example>
+		<SpacerGrid>
+			<SquareFill color="red"/>
+		</SpacerGrid>
+	</Example>
+)
+
 ReactDOM.render(
   <ExampleOne />,
   document.getElementById('exampleOne')
@@ -159,4 +178,9 @@ ReactDOM.render(
 ReactDOM.render(
   <BadgeButton />,
   document.getElementById('badgeButton')
+);
+
+ReactDOM.render(
+  <Spacer />,
+  document.getElementById('spacer')
 );

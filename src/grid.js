@@ -17,7 +17,6 @@
 import React from 'react';
 import styled from 'styled-components';
 
-
 const GridDiv = styled.div`
 	display: grid;
 	grid-template-rows: ${props => props.rowHeaders || 'initial' };
