@@ -187,9 +187,9 @@ Grid components can also be styled via the `className` property. If your project
 
 ```javascript
 const Simple = grid`
-		1fr		1fr
-1fr		A		A
-1fr		B		B
+     1fr  1fr
+1fr   A    A
+1fr   B    B
 `
 
 const StyledSimple = styled(Simple)`
