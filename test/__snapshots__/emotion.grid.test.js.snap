@@ -1,0 +1,105 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`The grid component should assigns dimensions based on gridItem 1`] = `
+.emotion-2 {
+  display: grid;
+  grid-template-rows: 1fr 2fr;
+  grid-template-columns: 3fr 4fr;
+}
+
+.emotion-1 {
+  grid-row-start: 1;
+  grid-row-end: 3;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  position: relative;
+}
+
+.emotion-0 {
+  grid-row-start: 1;
+  grid-row-end: 2;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  position: relative;
+}
+
+<div
+  className="emotion-2"
+>
+  <div
+    className="emotion-0"
+  >
+    <div
+      item="B"
+      style={
+        Object {
+          "position": "absolute",
+        }
+      }
+    />
+  </div>
+  <div
+    className="emotion-1"
+  >
+    <div
+      item="A"
+      style={
+        Object {
+          "position": "absolute",
+        }
+      }
+    />
+  </div>
+</div>
+`;
+
+exports[`The grid component should assigns dimensions based on sorting 1`] = `
+.emotion-2 {
+  display: grid;
+  grid-template-rows: 1fr 2fr;
+  grid-template-columns: 3fr 4fr;
+}
+
+.emotion-0 {
+  grid-row-start: 1;
+  grid-row-end: 3;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  position: relative;
+}
+
+.emotion-1 {
+  grid-row-start: 1;
+  grid-row-end: 2;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  position: relative;
+}
+
+<div
+  className="emotion-2"
+>
+  <div
+    className="emotion-0"
+  >
+    <div
+      style={
+        Object {
+          "position": "absolute",
+        }
+      }
+    />
+  </div>
+  <div
+    className="emotion-1"
+  >
+    <div
+      style={
+        Object {
+          "position": "absolute",
+        }
+      }
+    />
+  </div>
+</div>
+`;
