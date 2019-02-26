@@ -17,20 +17,22 @@
 import React from 'react';
 import styled from 'styled-components';
 
-const GridDiv = styled.div`
-	display: grid;
-	grid-template-rows: ${props => props.rowHeaders || 'initial' };
-	grid-template-columns: ${props => props.colHeaders || 'initial' };
-`;
-
-const GridCell = styled.div`
-	grid-row-start: ${props => props.top + 1};
-	grid-row-end: ${props => props.bottom + 2};
-	grid-column-start: ${props => props.left + 1};
-	grid-column-end: ${props => props.right + 2};
-	position: relative;
-`;
-
+ const GridDiv = styled('div')(({
+	rowHeaders,
+	colHeaders 
+  }) => ({
+	display: "grid",
+	gridTemplateRows: rowHeaders || "initial",
+	gridTemplateColumns: colHeaders || "initial"
+  }))
+  
+   const GridCell = styled('div')(({ top, bottom, left, right }) => ({
+	gridRowStart: top + 1,
+	gridRowEnd: bottom + 2,
+	gridColumnStart: left + 1,
+	gridColumnEnd: right + 2,
+	position: "relative"
+  }))
 
 const validateRows = (rows) => {
 	const colsRegEx = /[\s]+/;
