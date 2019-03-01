@@ -103,14 +103,3 @@ exports[`The grid component should assigns dimensions based on sorting 1`] = `
   </div>
 </div>
 `;
-
-exports[`assigns dimensions based on sorting 1`] = `
-.c0 {
-  box-sizing: border-box;
-  outline: 4px solid red;
-}
-
-<div
-  className="c0"
-/>
-`;
