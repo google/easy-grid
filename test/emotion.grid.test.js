@@ -76,7 +76,7 @@ describe("The grid component should", () => {
     expect(Component.rowHeaders).toEqual("1fr 2fr");
   });
 
-  it("assigns dimensions based on sorting", () => {
+  it("assign dimensions based on sorting", () => {
     const Component = grid`
 						3fr   4fr
 				1fr	A,B   A,B
@@ -105,7 +105,7 @@ describe("The grid component should", () => {
     expect(secondGridItem).toHaveStyleRule("grid-column-end", "3");
   });
 
-  it("assigns dimensions based on gridItem", () => {
+  it("assign dimensions based on gridItem", () => {
     const Component = grid`
 			3fr		4fr 	
 		1fr A,B		A,B	
