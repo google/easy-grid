@@ -15,9 +15,9 @@
  */
 
 module.exports = {
-  entry: './examples.js',
-  output: {
-    filename: 'build/examples.js'
+  entry: './examples/examples.js',
+  output: {path:__dirname +'/examples/build/',
+    filename:'examples.js'
   },
   module: {
   	rules: [
@@ -27,8 +27,8 @@ module.exports = {
 	      use: {
 	        loader: 'babel-loader',
 	        options: {
-	          presets: ['env'],
-	          plugins: [require('babel-plugin-transform-object-rest-spread')]
+	          presets: ['@babel/env','@babel/react'],
+	          plugins: []
 	        }
 	      }
 	    }

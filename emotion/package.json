@@ -1,0 +1,8 @@
+{
+    "name": "easy-grid/emotion",
+    "private": true,
+    "main": "./index.js",
+    "peerDependencies": {
+        "@emotion/styled": ">= 10"
+      }
+  }

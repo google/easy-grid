@@ -56,6 +56,7 @@ This will start a browser pointing at 'index.html' in the [examples subdirectory
 
 To play around with the library, make changes to the [examples.js](https://github.com/google/easy-grid/blob/master/examples/examples.js) React app and re-run `npm run examples`.
 
+
 ## Running the tests
 
 ```
@@ -75,6 +76,14 @@ easy-grid exports a `grid` factory method:
 
 ```javascript
 import grid from 'easy-grid';
+```
+
+### Emotion
+
+To use with [emotion][]
+
+```javascript
+import grid from 'easy-grid/emotion';
 ```
 
 ## Usage
@@ -214,3 +223,4 @@ This project is licensed under the Apache 2 License - see the [LICENSE](LICENSE)
 
 * A big shout-out to [styled components](https://www.styled-components.com/) for exposing the usefulness of [tagged template literals](https://www.styled-components.com/docs/advanced#tagged-template-literals).
 
+[emotion]: https://github.com/emotion-js/emotion

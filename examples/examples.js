@@ -18,7 +18,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import styled from 'styled-components';
 
-import grid from 'easy-grid';
+import grid from '../src/grid';
 
 const SquareFill = styled.div`
 	width: 100%;
